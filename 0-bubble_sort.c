@@ -27,7 +27,7 @@ if (array[i] > array[i + 1])
 swap = array[i];
 array[i] = array[i + 1];
 array[i + 1] = swap;
-n1 = i;
+n1 = i + 1;
 print_array(array, size);
 }
 }
